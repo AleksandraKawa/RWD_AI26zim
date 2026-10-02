@@ -1,0 +1,34 @@
+/* =========================================================
+   KARTA WYDARZENIA: plik startowy
+   Pracuj etapami i po każdym etapie rób commit (krótki opis, np. "Etap 2: karta").
+   ========================================================= */
+
+/* ETAP 1: zmienne i podstawy -------------------------------------------
+   TODO: ustaw w :root kolory, odstępy i rozmiar bazowy.
+   TODO: ustaw box-sizing: border-box dla wszystkich elementów.
+   TODO: ustaw czcionkę i kolor tekstu w body (przykład: system-ui). */
+:root {
+  --kolor-glowny: #1f3b65;
+  --kolor-akcent: #e9a23b;
+  --kolor-tlo: #f3f5f8;
+  --kolor-tekst: #1a2433;
+  --odstep: 1rem;
+}
+
+/* ETAP 2: wygląd karty (mobile-first, jedna kolumna) ---------------------
+   TODO: .card: tło, zaokrąglenie, cień, overflow: hidden.
+   TODO: .card img: width: 100%; height: auto.
+   TODO: .card__body: padding.
+   TODO: .card__tag: mała etykieta (wielkie litery, kolor akcentu).
+   TODO: .card__title: rozmiar z clamp(), np. clamp(1.1rem, 2.5vw, 1.5rem).
+   TODO: .card__link: wygląd przycisku; dodaj :hover i :focus-visible. */
+
+/* ETAP 3: układ wielu kart (responsywność) -------------------------------
+   TODO: .cards jako Grid z odstępem.
+   TODO: kolumny z auto-fit i minmax, np.
+         grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+   TODO: sprawdź w narzędziach deweloperskich szerokości 360, 768 i 1280 px. */
+
+/* ETAP 4 (dla chętnych) ---------------------------------------------------
+   TODO: tryb ciemny: @media (prefers-color-scheme: dark) { ... }
+   TODO: container query: układ poziomy karty, gdy kontener jest szeroki. */
